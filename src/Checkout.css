@@ -1,0 +1,56 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    height: max-content;
+    max-width: 1500px;
+    grid-column: auto;
+}
+.checkout_ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.checkout_title{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.checkout_left{
+    background-color: white;
+    width: 1000px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    float: left;
+    box-sizing: border-box;
+}
+.checkout_right{
+    background-color: white;
+    padding-top: 20px;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    float: right;
+    width: 300px;
+   box-sizing: border-box;
+}
+.checkout_left > div > h3{
+     position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.checkout_left > div > h4{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,29 @@
+.footer{
+    margin-top: 10px;
+}
+.navfooter_backtop{
+    background-color: rgb(55, 71, 90);
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    margin-bottom: 30px;
+    margin-top: -50px;
+    margin-left: -60px;  
+}
+.btn_txt{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.footer_bar{
+    margin-bottom: 0px;
+    margin-left: 177px;
+    margin-right: 177px;
+    margin-top: 0px;
+    max-width: 1000px;
+    box-sizing: border-box;
+    background-color: rgb(35, 47, 62);
+    display: table-row;
+}

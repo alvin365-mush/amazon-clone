@@ -1,0 +1,138 @@
+.header_sub{
+     height: 39px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(43, 57, 75);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-size: 14px;
+    background-repeat: repeat;
+
+}
+.header_nav_options{
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 10;
+    font-size: 2%;
+    font-weight: 700;
+    color: white;
+}
+.header_nav_option{
+    font-size: 14px;
+    padding-right: 9px;
+    outline-color: rgb(204, 204, 204);
+    outline-offset: -2px;
+    font-weight: 700;
+    color: white;
+    text-decoration-color: white;
+    
+}
+.header_nav_option_side{
+     box-shadow: none;
+        color: rgb(255, 255, 255);
+        float: right;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 15px;
+        margin-bottom: 7px;
+        margin-right: 2px;
+        margin-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 8px;
+        padding-right: 0px;
+        padding-top: 5px;
+        text-decoration: rgb(255, 255, 255);
+        text-decoration-color: rgb(255, 255, 255);
+        text-decoration-line: none;
+        text-decoration-style: solid;
+        flex: 0 0 auto;
+        white-space: pre;
+        width: auto;
+        margin-inline-end: auto;
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        width: 241px;
+    position: absolute;
+      right: 0px;
+}
+.drawerPaper {
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.4) 4px 0px 10px 0px;
+    width: 365px;
+  }
+.drawerHeader {
+    display: 'flex';
+    align-items: 'center';
+    padding: spacing(0, 1);
+    background-color: rgb(43, 57, 75);;
+    justify-content: 'flex-end';
+    flex-direction: row;
+    z-index: 100;
+    height: 50px;
+    font-size: 14px;
+    color: white;
+  }
+  .drawer{
+      width: fit-content;
+      float: left;
+  }
+.header_container{
+    padding-bottom: 5px;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+color: #111;
+text-transform: capitalize;
+display: inline-block;
+overflow-wrap: break-word;
+padding-bottom: 5px;
+padding-left: 36px;
+padding-right: 20px;
+padding-top: 13px
+}
+
+.menu_text{
+    box-sizing: border-box;
+    color: rgb(17, 17, 17);
+    display: flex;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    overflow-wrap: break-word;
+    visibility: visible;
+}
+.drawer_header_icon{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 37px;
+    height: 35px;
+    margin-left: 36px;
+    float: left;
+    margin-top: 10px;
+    
+}
+.header_text{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    font-size: 19px;
+    line-height: 25px;
+    max-width: 90%;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-top: 13px;
+}
+.actionButton{
+    float: right;
+    color: white;
+}
